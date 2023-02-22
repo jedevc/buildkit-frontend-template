@@ -15,7 +15,7 @@ Rename the template to your frontend name of choice, by replacing all instances
 of `jedevc/buildkit-frontend-template` with your frontend name:
 
 ```bash
-$ find . -type f -exec sed -i 's/jedevc\/buildkit-frontend-template/your-username\/your-frontend-name/g' {} +
+$ find . \( ! -regex '.*/\..*' \) -type f -exec sed -i 's/jedevc\/buildkit-frontend-template/your-username\/your-frontend-name/g' {} +
 ```
 
 ## Build the frontend
