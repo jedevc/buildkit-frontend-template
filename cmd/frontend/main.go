@@ -5,7 +5,7 @@ import (
 	"github.com/moby/buildkit/util/appcontext"
 	"github.com/sirupsen/logrus"
 
-	"github.com/jedevc/frontend/internal/build"
+	"github.com/jedevc/buildkit-frontend-template/internal/build"
 )
 
 func main() {
